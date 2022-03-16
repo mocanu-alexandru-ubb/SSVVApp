@@ -27,7 +27,7 @@ public class NotaXMLRepository extends AbstractXMLRepository<Pair<String, String
 
     public NotaXMLRepository(Validator<Nota> validator, String XMLfilename) {
         super(validator, XMLfilename);
-        loadFromXmlFile();
+        //loadFromXmlFile();
     }
 
     protected Element getElementFromEntity(Nota nota, Document XMLdocument) {
